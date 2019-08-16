@@ -13,14 +13,6 @@ import java.util.stream.Collectors;
 
 public class GetModifyFileUtils {
 
-//    public static void main(String[] args) {
-//
-//        getFile("class",
-//                "D:\\ideaProject\\SaasApi2.4.10\\target\\api\\WEB-INF\\classes",
-//                "D:\\demo\\",
-//                new DateTime(2019, 8, 16, 19, 57, 0, 0).toDate().getTime());
-//    }
-
     public static void getFile(String source, String target, long dateTime){
 		getFile(null, source, target, dateTime);
 	}
